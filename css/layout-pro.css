@@ -1,0 +1,53 @@
+* {box-sizing: border-box; margin: 0; padding: 0}
+
+main {width: 100vw; height: 100vh; background-color:salmon;}
+
+.header {width: 100vw; height: 3vh; background-color:royalblue;}
+
+    .nav {
+        width: 80vw;
+        margin-left: 20vw;
+        background-color: royalblue;
+        padding: 5px;
+        list-style: none;
+        text-align: right;
+        position: relative; bottom: 5vh;
+        }
+
+    .nav li {
+        display: inline-block;
+        font-size: 12px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+        margin: 10px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    .menu-logo {text-align: left; color: white; padding: 8px; padding-left: 12px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 12px;}
+
+.whiteboard {width: 100vw; height: 94vh; background-color:steelblue ; position: relative; left: 0vw; align-items: center;}
+
+    .lateral {width: 15vw; height: 92vh; margin:7px; margin-right: 3.5px; margin-left: 7px; margin-bottom: 7px; background-color:white; display: inline-block;}
+
+        .opcion-1 {width: 14.5vw; height: 11vh; background-color: orange; margin: 3.5px;}
+
+        .opcion-2 {width: 14.5vw; height: 11vh; background-color: orange; margin: 3.5px;}
+
+        .opcion-3 {width: 14.5vw; height: 11vh; background-color: orange; margin: 3.5px;}
+
+        .opcion-4 {width: 14.5vw; height: 11vh; background-color: orange; margin: 3.5px;}
+
+        .opcion-5 {width: 14.5vw; height: 11vh; background-color: orange; margin: 3.5px;}
+
+        .opcion-6 {width: 14.5vw; height: 11vh; background-color: orange; margin: 3.5px;}
+
+        .opcion-7 {width: 14.5vw; height: 11vh; background-color: orange; margin: 3.5px;}
+
+        .opcion-8 {width: 14.5vw; height: 11vh; background-color: orange; margin: 3.5px;}
+
+    .feed {width: 83vw; height: 92vh; margin:7px; margin-left: 3.5px; margin-bottom: 7px; background-color:white; display: inline-block; margin: 0 auto; position: relative; bottom: 46vh;}
+
+        .elemento-1 {position: relative; left: 16vw; top: 23vh;}
+
+.footer {width: 100vw; height: 3vh; background-color: royalblue; position: relative; bottom: 0px}

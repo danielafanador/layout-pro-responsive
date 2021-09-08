@@ -1,0 +1,84 @@
+* {box-sizing: border-box; margin: 0; padding: 0;}
+
+.container {height: 100%;}
+
+/* LOGO */
+.box-1 {height: 6vh; 
+        background-color:royalblue;
+        align-items: center;
+        flex-grow: 1; 
+        display: flex;
+        padding-left: 15px;
+        text-align: center;
+        margin: 3px;
+    }
+.box-1-1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: white;}
+ 
+/* MENÚ */
+.box-1-2 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+color: white;
+margin: 3px;
+flex-grow: 1;}
+
+.nav {
+background-color: royalblue;
+list-style: none;
+text-align: right;
+}
+    
+.nav li {
+font-size: 12px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: white;
+padding-left: 15px;
+padding-right: 10px;
+}
+ 
+/* BLOQUES */
+.box-2-1 {background-color: white; 
+    height: 54vh; 
+    display: block; 
+    justify-content: space-evenly; 
+    align-items: center;}
+
+    .box {height: 5.67vh; display: block; margin: 3px;}
+
+        .box-2-1-1 {background-color:orange;}
+
+        .box-2-1-2 {background-color:orange;}
+
+        .box-2-1-3 {background-color:orange;}
+
+        .box-2-1-4 {background-color:orange;}
+
+        .box-2-1-5 {background-color:orange;}
+
+        .box-2-1-6 {background-color:orange;}
+
+        .box-2-1-7 {background-color:orange;}
+
+        .box-2-1-8 {background-color:orange;}
+
+        .box-2-1-9 {background-color:orange;}
+
+/* IMAGEN */
+.box-2-2 {background-color: white;
+        height: auto;
+        flex-grow: 1; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center;}
+
+    .image {height: auto; width: 100%; margin: 3px;}
+
+/* FOOTER */
+.box-3 {background-color: royalblue; 
+        height: 6.6vh; 
+        align-items: flex-end; 
+        flex-grow: 1; 
+        display: flex; 
+        margin-top: 0px; 
+        margin-left: 3px; 
+        margin-right: 3px; 
+        margin-bottom: 3px;}
