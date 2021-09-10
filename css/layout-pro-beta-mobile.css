@@ -20,7 +20,8 @@
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 color: white;
 margin: 3px;
-flex-grow: 1;}
+flex-grow: 1;
+}
 
 .nav {
 background-color: royalblue;

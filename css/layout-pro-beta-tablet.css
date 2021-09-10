@@ -2,9 +2,11 @@
 
 .container {height: 100%;}
 
+html {max-width: 99%;}
+
 /* LOGO */
-.box-1 {height: 6vh; 
-        width: 100vw;
+.box-1 {height: 0vh; 
+        width: 100%;
         background-color:white;
         align-items: center;
         flex-grow: 1; 
@@ -22,23 +24,14 @@
 
 /* LOGO */
 .box-1-1 {
-    width: 99vw;
-    margin-bottom: 3px;
-    margin-right: 20px;
-    border-right: 20px;
+    width: 99.5%;
     background-color: royalblue;
+    margin-left: -4px;
 }
- 
-/* MENÚ */
-/* .box-1-2 {
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-color: white;
-margin: 3px;
-flex-grow: 1;} */
 
 .nav {
 background-color: royalblue;
-width: 99vw;
+width: 98vw;
 list-style: none;
 text-align: center;
 }
