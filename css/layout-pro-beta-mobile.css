@@ -12,7 +12,8 @@
         text-align: center;
         margin: 3px;
     }
-.box-1-1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: white;}
+    
+.box-1-1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: white; margin: 3px;}
  
 /* MENÚ */
 .box-1-2 {
