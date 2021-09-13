@@ -12,7 +12,7 @@ html {min-height: 94vh; max-height: 94vh; position: relative;}
     display: flex;
     padding-left: 5px;
     text-align: center;
-    margin-top: 3px;
+    margin: 3px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
     color: white; 
     display: inline-block;
@@ -31,16 +31,16 @@ html {min-height: 94vh; max-height: 94vh; position: relative;}
     background-color: royalblue;
 }
  
-        /* .box-1-2 {
+        .box-1-2 {
             display: inline-block;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
             color: white;
-        } */
+        }
 
         .nav {
             width: 99vw;
             background-color: royalblue;
-            /* padding: 5px; */
+            padding: 5px;
             margin-left: 3px;
             list-style: none;
             text-align: right;
@@ -51,25 +51,27 @@ html {min-height: 94vh; max-height: 94vh; position: relative;}
             font-size: 12px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             color: white;
-            /* padding-left: 15px; */
+            padding-left: 15px;
             padding-right: 10px;
         }
  
 .box-2 {background-color: white; height: 90vh; 
-    /* flex-grow: 1;  */
+    flex-grow: 1; 
     display: flex;
 }
 
     .box-2-1 {background-color: white; height: 100px; max-height: 100px; 
-        /* display: block;  */
-        /* justify-content: space-evenly;  */
-        /* align-items: center; */
+        display: block; 
+        justify-content: space-evenly; 
+        align-items: center;
     }
 
-    .box {height: 93.2px; width: 15.5vw; 
-        /* display: flex;  */
+    .box {
+        height: 93.2px; 
+        width: 33vw; 
+        display: flex; 
         margin: 3px; 
-        /* justify-content:space-evenly; */
+        justify-content:space-evenly;
     }
 
         .box-2-1-1 {background-color:orange;}
@@ -105,4 +107,3 @@ html {min-height: 94vh; max-height: 94vh; position: relative;}
     align-items: flex-end;
     flex-basis: 10rem;
 }
-
